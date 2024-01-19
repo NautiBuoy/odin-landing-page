@@ -1,0 +1,41 @@
+body {
+
+}
+
+.header {
+display: flex;
+flex-direction: column;
+background-color: darkred;
+}
+
+.logo {
+justify-content: flex-start;
+
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.footer {
+    background-color: darkred;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
