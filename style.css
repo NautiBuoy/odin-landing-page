@@ -3,13 +3,16 @@ body {
 }
 
 .header {
-display: flex;
-flex-direction: column;
-background-color: darkred;
+    display: flex;
+    background-color: darkred;
+    justify-content: space-between; 
+    padding: 0 15px 15px 15px;
 }
 
 .logo {
-justify-content: flex-start;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
 }
 
@@ -22,6 +25,25 @@ ul {
     font-size: 18px;
     gap: 10px;
 }
+
+.text-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: darkred;
+  }
+
+.hero-text {
+    text-align: left;
+    padding: 20px;
+}  
+
+.hero-image {
+ 
+
+}
+
 
 a {
     color: inherit;
