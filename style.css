@@ -1,5 +1,4 @@
 body {
-
 }
 
 .header {
@@ -42,6 +41,76 @@ ul {
 .hero-image {
  
 
+}
+
+.title-and-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons-group {
+display: flex;
+justify-content: baseline;
+align-items: baseline;
+}
+
+.icon {
+flex: 1;
+text-align: center;
+
+}   
+
+.icon img {
+    padding: 20px;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e4e4e4;
+}
+
+.quote-text {
+font-style: italic;
+}
+
+.quote-signature {
+    display: flex;
+    align-self: flex-end;
+    }
+
+.email-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    background-color: lightcoral;
+}    
+
+/* Width: 60%; sets the width of the .email-box container to 60% of its containing element's width.
+In this case, it means that the container will take up 60% of the width of its parent container.
+This allows the container to be more centered and not stretch across the entire screen. 
+with margin: 0 auto;the top and bottom margins are set to 0, and the left and right margins are set to auto, 
+which calculates equal margins on the left and right sides, and centers the element horizontally.
+
+Width % and margin 0 auto is a common way to center block elements horizontally */
+
+
+.email-box-text {
+text-align: left;
+}
+
+.email-box-button {
+    text-align: right;
 }
 
 
