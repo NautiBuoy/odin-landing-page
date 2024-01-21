@@ -1,18 +1,45 @@
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkred;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
 }
+
+
+.section1 {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.section2 {
+    background-color: #e5e7eb;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.section3 {
+    background-color: lightcoral;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
 
 .header {
     display: flex;
-    background-color: darkred;
     justify-content: space-between; 
     padding: 0 15px 15px 15px;
 }
 
 .logo {
     display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 ul {
@@ -21,25 +48,42 @@ ul {
     list-style-type: none;
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .text-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  background-color: darkred;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+    margin: 25px 150px;
+    gap: 30px;
+}
+
+.text-image h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.text-image p {
+    color: #e5e7eb;
+}
 
 .hero-text {
     text-align: left;
-    padding: 20px;
 }  
 
 .hero-image {
- 
 
 }
 
@@ -48,18 +92,19 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: white;
+    margin: 0;
 }
 
 .icons-group {
-display: flex;
-justify-content: baseline;
-align-items: baseline;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
 }
 
 .icon {
-flex: 1;
-text-align: center;
+    flex: 1;
+    text-align: center;
 
 }   
 
@@ -75,24 +120,24 @@ text-align: center;
     align-items: center;
     text-align: center;
     background-color: #e4e4e4;
+    margin: 25px 150px;
 }
 
 .quote-text {
-font-style: italic;
+    font-style: italic;
 }
 
 .quote-signature {
     display: flex;
     align-self: flex-end;
-    }
+}
 
 .email-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    width: 60%;
-    margin: 0 auto;
+    margin: 25px 150px;
     background-color: lightcoral;
 }    
 
@@ -106,9 +151,15 @@ Width % and margin 0 auto is a common way to center block elements horizontally 
 
 
 .email-box-text {
-text-align: left;
+    text-align: left;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
+#title {
+    font-size: 24px;
+    color: white    ;
+}
 .email-box-button {
     text-align: right;
 }
@@ -117,6 +168,7 @@ text-align: left;
 a {
     color: inherit;
     text-decoration: inherit;
+    font-size: 20px;
 }
 
 .footer {
